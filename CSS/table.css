@@ -1,0 +1,34 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: 'Merriweather', serif;
+    color: black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    margin-bottom: 15px;
+}
+
+.table__cell--header {
+    color: #eee;
+    background-color: rgb(107, 107, 107);
+}
+
+.table__row:nth-child(even) {
+    background: rgb(209, 209, 209);
+}
+
+.table__row:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+
+.table__cell {
+    border: 5px solid rgb(151, 151, 151);
+    padding: 20px;
+    text-align: center;
+}
