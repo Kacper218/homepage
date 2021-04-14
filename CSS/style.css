@@ -35,8 +35,8 @@ html {
     margin-bottom: 30px;
     padding: 20px;
     border-bottom: 10px solid gray;
-    background-image: url(https://i.ytimg.com/vi/2889Gn-mm8I/maxresdefault.jpg);
-    background-position: bottom;
+    background-image: url("../images/1.jpeg");
+    background-position: top;
 }
 
 .button {
