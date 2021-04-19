@@ -12,6 +12,7 @@
 }
 
 .nav__listItem {
+    padding: 5px;
     margin: 10px 0px;
     border-bottom: 2px solid rgb(175, 175, 175);
 }

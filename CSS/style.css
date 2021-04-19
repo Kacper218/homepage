@@ -54,11 +54,3 @@ html {
     margin: 20px;
     font-size: 15px;
 }
-
-.footer {
-    color: black;
-    text-align: center;
-    padding: 15px;
-    background-color: rgb(212, 212, 212);
-    border-top: 10px solid gray;
-}
