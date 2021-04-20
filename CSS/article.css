@@ -20,6 +20,12 @@
     border: 5px solid rgb(212, 212, 212);
 }
 
+@media (max-width: 767px) {
+    .article__photo {
+        max-width: 90%;
+    }
+}
+
 .article__subHeader {
     text-align: center;
     font-style: italic;
