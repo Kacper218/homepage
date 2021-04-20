@@ -6,6 +6,8 @@ This is my main project that I'm currently working on to pratice my skills in fr
 
 The topic of the website is game Gothic 1, which I really like.
 
+I'm using VS Code editor with VIM extension.
+
 I just started so it's pretty simple so far, but im trying to do my best.
 
 Website is in polish language. 
