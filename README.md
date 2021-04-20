@@ -4,6 +4,8 @@
 
 This is my main project that I'm currently working on to pratice my skills in frontweb development.
 
+The topic of the website is game Gothic 1, which I really like.
+
 I just started so it's pretty simple so far, but im trying to do my best.
 
 Website is in polish language. 
