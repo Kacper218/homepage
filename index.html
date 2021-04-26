@@ -12,6 +12,7 @@
     <link href="CSS/nav.css" rel="stylesheet">
     <link href="CSS/footer.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/grid.css" rel="stylesheet">
     <link href="CSS/table.css" rel="stylesheet">
     <link href="CSS/article.css" rel="stylesheet">
     <script defer src="JS/script.js"></script>
@@ -24,47 +25,50 @@
 <body class="body">
     <div class="container2">
         <header class="header">Gothic I</header>
-        <nav class="nav">
-            <ul class="nav__list">
-                <div class="nav__header">
-                    Spis treści - odnośniki
-                </div>
-                <li class="nav__listItem">
-                    <a class="nav__link" href="#plot">Fabuła</a>
-                </li>
-                <li class="nav__listItem">
-                    <a class="nav__link" href="#gameplay">Rozgrywka</a>
-                <li class="nav__listItem nav__listItem--padding">
-                    <a class="nav__link" href="#character">Rozwój postaci</a>
-                    </l>
-                <li class="nav__listItem nav__listItem--padding">
-                    <a class="nav__link" href="#fractions">Frakcje</a>
-                </li>
-                </li>
-                <li class="nav__listItem">
-                    <a class="nav__link" href="#summary">Streszczenie</a>
-                </li>
-                <li class="nav__listItem">
-                    <a class="nav__link" href="#table">Tabela Broni</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container__grid">
+            <nav class="nav gridElement__nav">
+                <ul class="nav__list">
+                    <div class="nav__header">
+                        Spis treści - odnośniki
+                    </div>
+                    <li class="nav__listItem">
+                        <a class="nav__link" href="#plot">Fabuła</a>
+                    </li>
+                    <li class="nav__listItem">
+                        <a class="nav__link" href="#gameplay">Rozgrywka</a>
+                    <li class="nav__listItem nav__listItem--padding">
+                        <a class="nav__link" href="#character">Rozwój postaci</a>
+                        </l>
+                    <li class="nav__listItem nav__listItem--padding">
+                        <a class="nav__link" href="#fractions">Frakcje</a>
+                    </li>
+                    </li>
+                    <li class="nav__listItem">
+                        <a class="nav__link" href="#summary">Streszczenie</a>
+                    </li>
+                    <li class="nav__listItem">
+                        <a class="nav__link" href="#table">Tabela Broni</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <button class="button">Włącz ciemny motyw</button>
+            <button class="button gridElement__button">Włącz ciemny motyw</button>
 
-        <section class="section">
-            <p class="section__paragraph">
-                Jest to pierwsza część fabularnej gry akcji z serii Gothic wyprodukowana przez firmę <strong>
-                    Piranha Bytes
-                </strong>i wydana
-                przez
-                Egmont Interactive w 2001 roku. Polskie wydanie oraz lokalizację (wraz z dubbingiem) zrealizowała
-                <b>firma
-                    CD
-                    Projekt.
-                </b>
-            </p>
-        </section>
+            <section class="section gridElement__section">
+                <p class="section__paragraph">
+                    Jest to pierwsza część fabularnej gry akcji z serii Gothic wyprodukowana przez firmę <strong>
+                        Piranha Bytes
+                    </strong>i wydana
+                    przez
+                    Egmont Interactive w 2001 roku. Polskie wydanie oraz lokalizację (wraz z dubbingiem) zrealizowała
+                    <b>firma
+                        CD
+                        Projekt.
+                    </b>
+                </p>
+            </section>
+
+        </div>
         <main class="main">
             <article class="article">
                 <h2 id="plot" class="article__header">Fabuła</h2>

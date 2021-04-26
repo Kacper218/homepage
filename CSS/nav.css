@@ -10,6 +10,7 @@
     border: 5px solid gray;
     background-color: rgb(212, 212, 212);
     border-radius: 10px;
+    line-height: 2;
 }
 
 .nav__header {
